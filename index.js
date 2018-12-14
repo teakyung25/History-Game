@@ -1,8 +1,5 @@
 $(function(){ 
   //Audio Autoplay
-  $('audio').on('canplay', function() {
-    this.play();
-  });
 /*Turn on and off audio*/
    var clicked = true;
     $(".line-c").click( function() {
